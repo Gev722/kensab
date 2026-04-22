@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Քաղցկեղի Կենսաբանություն և Կանխարգելում</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Armenian:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans Armenian', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        .section-icon {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="gradient-bg text-white py-12 px-4 text-center shadow-lg">
+        <h1 class="text-3xl md:text-5xl font-bold mb-4">Քաղցկեղի Կենսաբանություն</h1>
+        <p class="text-lg md:text-xl opacity-90">Ինչպես հասկանալ և կանխարգելել հիվանդությունը</p>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 py-12">
+        
+        <!-- Grid Layout for Sections -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <!-- Section 1: Cell Cycle -->
+            <section class="card bg-white p-6 rounded-2xl shadow-sm border-t-4 border-blue-500">
+                <div class="section-icon">🔬</div>
+                <h2 class="text-xl font-bold mb-4 text-blue-700">Բջջային Ցիկլ</h2>
+                <ul class="space-y-3 text-sm">
+                    <li><strong>G1 փուլ:</strong> Ռեսուրսների ստուգում և աճ։</li>
+                    <li><strong>S փուլ:</strong> ԴՆԹ-ի ճշգրիտ կրկնապատկում։</li>
+                    <li><strong>G2 փուլ:</strong> Սխալների ուղղում նախքան բաժանումը։</li>
+                    <li class="bg-blue-50 p-2 rounded italic">Խափանումը բերում է անվերջ բաժանման։</li>
+                </ul>
+            </section>
+
+            <!-- Section 2: Genetics -->
+            <section class="card bg-white p-6 rounded-2xl shadow-sm border-t-4 border-purple-500">
+                <div class="section-icon">🧬</div>
+                <h2 class="text-xl font-bold mb-4 text-purple-700">Գենետիկա</h2>
+                <ul class="space-y-3 text-sm">
+                    <li><strong>Օնկոգեններ:</strong> «Միացված» կոճակներ, որոնք խթանում են ուռուցքը։</li>
+                    <li><strong>p53 Սպիտակուց:</strong> Բջջի գլխավոր պաշտպանը։</li>
+                    <li><strong>Ապոպտոզ:</strong> Վնասված բջջի ինքնաոչնչացում։</li>
+                    <li class="bg-purple-50 p-2 rounded italic">Քաղցկեղը «կրկնակի հարվածի» արդյունք է։</li>
+                </ul>
+            </section>
+
+            <!-- Section 3: Environment -->
+            <section class="card bg-white p-6 rounded-2xl shadow-sm border-t-4 border-green-500">
+                <div class="section-icon">🌍</div>
+                <h2 class="text-xl font-bold mb-4 text-green-700">Շրջակա Միջավայր</h2>
+                <ul class="space-y-3 text-sm">
+                    <li><strong>Կանցերոգեններ:</strong> Բենզոլ, ծանր մետաղներ և նիտրիտներ։</li>
+                    <li><strong>Օդի աղտոտում:</strong> Մուտացիաներ թոքերում։</li>
+                    <li><strong>Սնունդ:</strong> Տապակած սննդի ակրիլամիդը վտանգավոր է։</li>
+                    <li class="bg-green-50 p-2 rounded italic">Լյարդը դետոքսիկացիայի կենտրոնն է։</li>
+                </ul>
+            </section>
+
+            <!-- Section 4: Radiation -->
+            <section class="card bg-white p-6 rounded-2xl shadow-sm border-t-4 border-yellow-500">
+                <div class="section-icon">☀️</div>
+                <h2 class="text-xl font-bold mb-4 text-yellow-700">Ճառագայթում</h2>
+                <ul class="space-y-3 text-sm">
+                    <li><strong>UV ճառագայթներ:</strong> Մաշկի քաղցկեղի հիմնական պատճառ։</li>
+                    <li><strong>Իոնացնող ճառագայթներ:</strong> Ռենտգեն և Գամմա ալիքներ։</li>
+                    <li><strong>Ռադոն գազ:</strong> Կուտակվում է նկուղներում։</li>
+                    <li class="bg-yellow-50 p-2 rounded italic">Օգտագործեք արևապաշտպան քսուքներ։</li>
+                </ul>
+            </section>
+
+            <!-- Section 5: Viruses -->
+            <section class="card bg-white p-6 rounded-2xl shadow-sm border-t-4 border-red-500">
+                <div class="section-icon">🦠</div>
+                <h2 class="text-xl font-bold mb-4 text-red-700">Վիրուսներ</h2>
+                <ul class="space-y-3 text-sm">
+                    <li><strong>HPV:</strong> Արգանդի վզիկի քաղցկեղի հարուցիչ։</li>
+                    <li><strong>Հեպատիտ B/C:</strong> Լյարդի քաղցկեղի ռիսկ։</li>
+                    <li><strong>Պաշտպանություն:</strong> Վակցինացիա (պատվաստում)։</li>
+                    <li class="bg-red-50 p-2 rounded italic">Վիրուսները կազմում են դեպքերի 20%-ը։</li>
+                </ul>
+            </section>
+
+            <!-- Section 6: Diagnostics -->
+            <section class="card bg-white p-6 rounded-2xl shadow-sm border-t-4 border-cyan-500">
+                <div class="section-icon">🏥</div>
+                <h2 class="text-xl font-bold mb-4 text-cyan-700">Ախտորոշում</h2>
+                <ul class="space-y-3 text-sm">
+                    <li><strong>ՈւՁՀ:</strong> Առաջնային զննում։</li>
+                    <li><strong>ՄՌՏ:</strong> Փափուկ հյուսվածքների ճշգրիտ պատկեր։</li>
+                    <li><strong>Բիոպսիա:</strong> Վերջնական և ամենաճիշտ մեթոդը։</li>
+                    <li class="bg-cyan-50 p-2 rounded italic">Վաղ հայտնաբերումը փրկում է կյանքեր։</li>
+                </ul>
+            </section>
+
+        </div>
+
+        <!-- Prevention Section -->
+        <div class="mt-12 bg-white rounded-3xl p-8 shadow-md border-l-8 border-orange-500">
+            <h2 class="text-2xl font-bold mb-6 flex items-center">
+                <span class="mr-3">🏃‍♂️</span> Ինչպե՞ս պաշտպանվել
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="flex items-start">
+                    <div class="bg-orange-100 p-2 rounded-lg mr-4">🥗</div>
+                    <div>
+                        <h3 class="font-bold">Ճիշտ սնունդ</h3>
+                        <p class="text-sm">Շատ բրոկոլի և կաղամբ, քիչ վերամշակված միս։</p>
+                    </div>
+                </div>
+                <div class="flex items-start">
+                    <div class="bg-orange-100 p-2 rounded-lg mr-4">⚖️</div>
+                    <div>
+                        <h3 class="font-bold">Քաշի հսկողություն</h3>
+                        <p class="text-sm">Ճարպային հյուսվածքը ազդում է հորմոնալ ֆոնի վրա։</p>
+                    </div>
+                </div>
+                <div class="flex items-start">
+                    <div class="bg-orange-100 p-2 rounded-lg mr-4">🚭</div>
+                    <div>
+                        <h3 class="font-bold">Հրաժարում ծխախոտից</h3>
+                        <p class="text-sm">Ծխի մեջ կա 70-ից ավելի հաստատված կանցերոգեն։</p>
+                    </div>
+                </div>
+                <div class="flex items-start">
+                    <div class="bg-orange-100 p-2 rounded-lg mr-4">⚡</div>
+                    <div>
+                        <h3 class="font-bold">Ակտիվություն</h3>
+                        <p class="text-sm">Օրական 30 րոպե շարժումը լավացնում է իմունիտետը։</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-8 text-center mt-12">
+        <p class="opacity-70">&copy; 2026 Առողջապահական Իրազեկման Նախագիծ</p>
+    </footer>
+
+</body>
+</html>
